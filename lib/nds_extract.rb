@@ -48,7 +48,7 @@ def total_gross(source)
   dt = directors_totals(source)
   lod = list_of_directors(source)
   
-  return dt.values 
+  return dt.values.sum
 end
 
 
